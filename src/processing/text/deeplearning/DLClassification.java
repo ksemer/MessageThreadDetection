@@ -1,27 +1,14 @@
 package processing.text.deeplearning;
 
-import java.awt.BorderLayout;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Random;
 
 import edu.cmu.lti.ws4j.RelatednessCalculator;
 import processing.graph.measure.EmailSimGlobalCloseness;
 import processing.text.enron.model.Email;
 import utils.WekaUtil;
-import weka.classifiers.Classifier;
-import weka.classifiers.CostMatrix;
-import weka.classifiers.bayes.BayesNet;
-import weka.classifiers.functions.SMO;
-import weka.classifiers.lazy.IBk;
-import weka.classifiers.meta.CostSensitiveClassifier;
-import weka.classifiers.trees.J48;
-import weka.classifiers.trees.RandomForest;
 import weka.core.Instances;
-import weka.core.SerializationHelper;
-import weka.gui.treevisualizer.PlaceNode2;
-import weka.gui.treevisualizer.TreeVisualizer;
 
 public class DLClassification{
 	

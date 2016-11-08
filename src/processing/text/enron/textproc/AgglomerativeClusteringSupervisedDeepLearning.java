@@ -4,24 +4,16 @@ import java.io.PrintWriter;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
-import java.util.Map.Entry;
 
-import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Table;
 
 import edu.cmu.lti.ws4j.RelatednessCalculator;
-import processing.graph.measure.EmailSimGlobalCloseness;
 import processing.text.deeplearning.DLClassification;
 import processing.text.deeplearning.MLP;
 import processing.text.enron.model.Cluster;
 import processing.text.enron.model.Email;
-import processing.text.enron.model.ValueComparatorInt;
 import processing.text.enron.model.Word;
-import weka.classifiers.Classifier;
-import weka.core.SerializationHelper;
+
 
 public class AgglomerativeClusteringSupervisedDeepLearning extends Clustering {
 

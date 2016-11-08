@@ -2,7 +2,6 @@ package processing.text.deeplearning;
 
 import static processing.text.deeplearning.utils.*;
 
-import java.util.HashMap;
 import java.util.Random;
 
 public class dA extends MatrixCompletion{

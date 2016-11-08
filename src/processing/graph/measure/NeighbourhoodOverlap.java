@@ -18,8 +18,8 @@ import java.util.Set;
 public class NeighbourhoodOverlap {
 	// JDBC driver name, database URL, user, pass
 	private String DB_URL = "jdbc:mysql://localhost:3306/";
-	private static final String USER = "";
-	private static final String PASS = "";
+	private static final String USER = "giacomo";
+	private static final String PASS = "12345";
 	private Connection conn = null;
 	private Statement stmt = null;
 	

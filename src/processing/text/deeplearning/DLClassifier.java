@@ -1,7 +1,5 @@
 package processing.text.deeplearning;
 
-import java.util.Random;
-
 public interface DLClassifier {
 	
 	public void train(double[][] train_X, int[][] train_Y, double lr, int n_epochs);
